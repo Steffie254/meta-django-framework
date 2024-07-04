@@ -4,8 +4,11 @@ from django.contrib import admin
 # Import the models from models.py
 
 # Register your models here.
-from .models import DrinksCategory, Drinks
+from .models import Booking, DrinksCategory, Drinks
 
 admin.site.register(Drinks)
 
 admin.site.register(DrinksCategory)
+
+
+admin.site.register(Booking)
